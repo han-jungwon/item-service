@@ -10,5 +10,14 @@ public class Item {
     private Integer price; // 값이 0이 될 수도 있기 때문에 Int가 아닌 Integer
     private Integer quantity;
 
+    public Item() {
+    }
+
+    public Item(String itemName, Integer price, Integer quantity) {
+        this.itemName = itemName;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
 
 }
